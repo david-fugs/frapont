@@ -734,7 +734,8 @@ $months = $data['months'];
                         echo '<td>'
                             . '<button type="button" class="btn-neutro btn-supersmall" title="'.$dto->__($lng,"Veure Torns").'" onclick="mostraTorns('.$id.','.$period["idhorari"].')">'
                             . '<span class="glyphicon glyphicon-zoom-in"></span></button>'
-                            . '<button class="btn-next btn-supersmall" type="button" title="'.$dto->__($lng,"Edita Període").'" onclick="mostraPeriodeHorari('.$period["idquadrant"].','.$period["idhorari"].','.strtotime($period["datainici"]).','.strtotime($period["datafi"]).');">'
+                            . '<button
+                             class="btn-next btn-supersmall" type="button" title="'.$dto->__($lng,"Edita Període").'" onclick="mostraPeriodeHorari('.$period["idquadrant"].','.$period["idhorari"].','.strtotime($period["datainici"]).','.strtotime($period["datafi"]).');">'
                             . '<span class="glyphicon glyphicon-pencil"></span></button>'
                             . '<button type="button" class="btn-red btn-supersmall" onclick="confElimPeriodeHorari('.$period["idquadrant"].','."'".$period["nom"]."'".');"><span class="glyphicon glyphicon-remove" style="color:red" title="'.$dto->__($lng,"Elimina Període").'"></span></button>';
 

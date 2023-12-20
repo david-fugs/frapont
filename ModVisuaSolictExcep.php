@@ -90,6 +90,9 @@
     //$stateSolict = $dto->getCampPerIdCampTaula("excepcio",$idexcep,"aprobada");
 
     //$anys = $dto->mostraAnysContractePerId($id);
+
+
+    
     ?>
 
 
